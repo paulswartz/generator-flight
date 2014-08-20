@@ -148,7 +148,7 @@ define(function (require) {
   return defineComponent(tweetBox);
 
   function tweetBox() {
-    this.defaultAttrs({});
+    this.attributes({});
     this.after('initialize', function () {});
   }
 });
@@ -190,7 +190,7 @@ define(function (require) {
   return withTweetActions;
 
   function withTweetActions() {
-    this.defaultAttrs({});
+    this.attributes({});
     this.after('initialize', function () {});
   }
 });
